@@ -1,8 +1,94 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Updated Image</title>
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .student {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .student img {
+            width: 120px;
+            height: 120px;
+            border-radius: 8px;
+            margin-right: 20px;
+            border: 2px solid black;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background:  green;
+            color: black;
+        }
+        a {
+            display: block;
+            margin: 8px 0;
+            padding: 8px;
+            background: #e6f2ff;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+        a:hover {
+            background: #cce0ff;
+        }
+    </style>
 </head>
 <body>
-    <img src="https://drive.google.com/uc?id=YOUR_IMAGE_ID" alt="Image">
+    <div class="box">
+        <h2>Student Profile</h2>
+        
+        <div class="student">
+            <img src="https://i.ibb.co/PvZpXWX0/SAVE-20250822-140409.jpg" alt="Student Image">
+            <div>
+                <p><b>Name:</b> RADHAKRISHNAN B</p>
+                <p><b>Department:</b> Electronics  and Communication Engineering</p>
+                <p><b>Section:</b> A</p>
+            </div>
+        </div>
+        
+        <h3>Semester Results</h3>
+        <table>
+            <tr>
+                <th>Semester</th>
+                <th>CGPA</th>
+            </tr>
+            <tr><td>Semester 1</td><td>7.45</td></tr>
+            <tr><td>Semester 2</td><td>7.52</td></tr>
+            <tr><td>Semester 3</td><td>8.27</td></tr>
+            <tr><td>Semester 4</td><td>7.98</td></tr>
+            <tr><td>Semester 5</td><td>?</td></tr>
+        </table>
+        
+        <h3>Video & Audio Links</h3>
+        <!-- Changed Video Link -->
+        <a href="https://youtu.be/dD12aw5KYug?si=paMLHkIU7C6cdgT5" target="_blank">
+            🎬 Video: Self Introduction
+        </a>
+        <!-- Changed Audio Link -->
+        <a href="" target="_blank">
+            🔊 Audio: Favourite Song
+        </a>     
+    </div>
 </body>
 </html>
